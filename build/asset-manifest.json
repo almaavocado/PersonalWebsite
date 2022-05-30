@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa2e6586.chunk.css",
+    "main.js": "/static/js/main.4fb4175b.chunk.js",
+    "main.js.map": "/static/js/main.4fb4175b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.73d6a361.js",
+    "runtime-main.js.map": "/static/js/runtime-main.73d6a361.js.map",
+    "static/js/2.fbd3f5dc.chunk.js": "/static/js/2.fbd3f5dc.chunk.js",
+    "static/js/2.fbd3f5dc.chunk.js.map": "/static/js/2.fbd3f5dc.chunk.js.map",
+    "static/js/3.e5c1ede6.chunk.js": "/static/js/3.e5c1ede6.chunk.js",
+    "static/js/3.e5c1ede6.chunk.js.map": "/static/js/3.e5c1ede6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fa2e6586.chunk.css.map": "/static/css/main.fa2e6586.chunk.css.map",
+    "static/js/2.fbd3f5dc.chunk.js.LICENSE.txt": "/static/js/2.fbd3f5dc.chunk.js.LICENSE.txt",
+    "static/media/Alma Alvarado Resume.b326f327.pdf": "/static/media/Alma Alvarado Resume.b326f327.pdf",
+    "static/media/AppBannerDeveloperPic.7a71a26a.png": "/static/media/AppBannerDeveloperPic.7a71a26a.png",
+    "static/media/App.css": "/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
+    "static/media/MentesSanas.fdcccea6.png": "/static/media/MentesSanas.fdcccea6.png",
+    "static/media/TripeaseImage.c98139a5.png": "/static/media/TripeaseImage.c98139a5.png",
+    "static/media/VRTargets.22e2fa7f.png": "/static/media/VRTargets.22e2fa7f.png",
+    "static/media/homes.c6c6255c.png": "/static/media/homes.c6c6255c.png",
+    "static/media/mentorlogo.7be1a29f.svg": "/static/media/mentorlogo.7be1a29f.svg",
+    "static/media/profile.f0153763.png": "/static/media/profile.f0153763.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73d6a361.js",
+    "static/js/2.fbd3f5dc.chunk.js",
+    "static/css/main.fa2e6586.chunk.css",
+    "static/js/main.4fb4175b.chunk.js"
+  ]
+}
