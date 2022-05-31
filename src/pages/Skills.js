@@ -162,7 +162,7 @@ const Skills = () => {
 								key={link.id}
 								className="text-gray-400 hover:text-green-800 dark:hover:text-green-800 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
 							>
-								<i className="text-7xl">
+								<i className="text-7xl sm:text-2xl md:text-3xl">
 									{link.icon}
 								</i>
 								
