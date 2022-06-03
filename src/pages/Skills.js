@@ -1,22 +1,25 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import { SiAnaconda, SiFigma, SiGithub, SiGooglecloud, SiGooglemaps, SiJetbrains } from "react-icons/si";
+import { 
+	SiAnaconda, 
+	SiGithub, 
+	SiGooglecloud, 
+	SiGooglemaps, 
+	SiJetbrains, 
+	SiReplit,
+	SiVisualstudiocode,
+	SiIntellijidea,
+	SiGooglecolab,
+	SiJirasoftware,
+ } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
   DiPython,
   DiGit,
   DiJava,
-  DiJira,
 } from "react-icons/di";
-
-import {
-	SiReplit,
-	SiVisualstudiocode,
-	SiIntellijidea,
-	SiGooglecolab,
-  } from "react-icons/si";
-
+import { FiFigma } from "react-icons/fi";
 
 const socialLinks = [
 	{
@@ -47,7 +50,7 @@ const socialLinks = [
 	},
 	{
 		id: 6,
-		icon: <DiJira />,
+		icon: <SiJirasoftware />,
 		url: "https://www.atlassian.com/software/jira",
 	},
 	{
@@ -103,7 +106,7 @@ const toolLinks = [
 	},
 	{
 		id: 7,
-		icon: <SiFigma />,
+		icon: <FiFigma />,
 		url: "https://www.figma.com/",
 	},
 

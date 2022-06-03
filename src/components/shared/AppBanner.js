@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developer from '../../images/AppBannerDeveloperPic.png';
-import Resume from '../../files/Alma Alvarado Resume.pdf';
+import Resume from '../../files/Alma Alvarado-Resume.pdf';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
