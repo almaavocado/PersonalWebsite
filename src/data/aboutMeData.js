@@ -17,6 +17,6 @@ export const aboutMeData = [
 	},
 	{
 		id: 4,
-		bio: "I recently spearheaded an initiative to create a STEM program for 60 underrepresented youth ages 13-18 resulting in 30% increase in student retention while successfully inspiring 90% of students to pursue a STEM related degree."
+		bio: "I recently spearheaded an initiative to create a STEM program for 60 underrepresented youth ages 13-18 resulting in 30% increase in student retention while successfully inspiring 90% of students enrolled in the program to pursue a STEM related degree."
 	},
 ];

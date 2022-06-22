@@ -38,7 +38,7 @@ export const projectsData = [
 		title: 'Tiny Homes',
 		category: 'Database',
 		img: TinyHomes,
-		description: 'Designed a database that keeps track of every aspect of the tiny homes project so that many cities can use the efficient database to track progress.',
+		description: 'Designed a database that keeps track of every aspect of the tiny homes project that many cities can use the efficient database to track progress.',
 		link: 'https://github.com/almaavocado/TinyHomesDatabase',
 
 
