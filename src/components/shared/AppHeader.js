@@ -110,6 +110,14 @@ const AppHeader = () => {
 					>
 						Skills
 					</Link>
+
+					<Link
+						to="/activities"
+						className=" flex-1 flex justify-center mr-aut text-primary-dark dark:text-ternary-light hover:text-green-800 dark:hover:text-green-800  sm:mx-4 mb-2 sm:py-2"
+						aria-label="Activities"
+					>
+						Activities
+					</Link>
 				
 				</div>
 
@@ -140,6 +148,13 @@ const AppHeader = () => {
 						Skills
 					</Link>
 					
+					<Link
+						to="/activities"
+						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-green-800 dark:hover:text-green-800   sm:mx-4 mb-2 sm:py-2"
+						aria-label="Activities"
+					>
+						Activities
+					</Link>
 					
 				</div>
 

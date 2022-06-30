@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectSingle from './pages/ProjectSingle';
 import Skills from './pages/Skills';
+import Activity from './pages/Activity';
 import { AnimatePresence } from 'framer-motion';
 import UseScrollToTop from './hooks/useScrollToTop';
 
@@ -29,6 +30,8 @@ function App() {
 							element={<ProjectSingle />}
 						/>
 						<Route path="skills" element={<Skills />} />
+						<Route path="activities" element={<Activity />} />
+
 					</Routes>
 					<AppFooter />
 				</Router>
