@@ -1,9 +1,9 @@
 import React from 'react';
 
-import MVFCLogo from '../images/MVFCLogo.png';
-import WicImage from '../images/WicImage';
-import SPYLogo from '../images/SPYLogo';
-import GoogleLogo from '../images/GoogleLogo';
+import MVFCLogo from '../images/mvfc.png';
+import WicImage from '../images/wic.png';
+import SPYLogo from '../images/spy.png';
+import GoogleLogo from '../images/googlelogo.png';
 import GraceHopper from '../images/grace.png';
 
 

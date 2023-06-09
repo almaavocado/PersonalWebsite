@@ -1,7 +1,7 @@
-import TripeaseImage from '../images/TripeaseImage.png';
-import MentesSanas from '../images/MentesSanas.png';
+import TripeaseImage from '../images/tripease.png';
+import MentesSanas from '../images/mentes.png';
 import TinyHomes from '../images/homes.png';
-import Targets from '../images/VRTargets.png';
+import Targets from '../images/vr.png';
 
 
 export const projectsData = [
@@ -12,6 +12,7 @@ export const projectsData = [
 		img: TripeaseImage,
 		description: 'Tripease is an travel itinerary website that uses the Google API to query for destinations, lodgings, rentals, and more for you to create your dream vacation with ease.',
 		link: 'http://github.com/almaavocado/TripeaseDescription',
+		websiteLink: 'https://tripease.netlify.app/',
 
 		ProjectHeader: {
 			title: 'Tripease',
@@ -55,6 +56,7 @@ export const projectsData = [
 		img: Targets,
 		description: 'A VR target shooting simulator with 3 levels.',
 		link: 'https://github.com/almaavocado/TargetsVR',
+		websiteLink: 'https://targets-vr.netlify.app/',
 
 		
 		ProjectHeader: {

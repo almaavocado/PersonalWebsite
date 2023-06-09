@@ -93,7 +93,7 @@ const ProjectsGrid = () => {
 				</div>
 			</div>
 
-			<div className="w-full flex flex-col inline-block grid grid-auto-rows: 1fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+			<div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
 					? selectProjectsByCategory.map((project) => (
 							<ProjectSingle
@@ -102,27 +102,30 @@ const ProjectsGrid = () => {
 								image={project.img}
 								description={project.description}
 								link={project.link}
+								websiteLink={project.websiteLink}
 								key={project.id}
 							/>
 					  ))
 					: searchProject
 					? searchProjectsByTitle.map((project) => (
-							<ProjectSingle class = "flex flex-wrap"
+							<ProjectSingle
 								title={project.title}
 								category={project.category}
 								image={project.img}
 								description={project.description}
 								link={project.link}
+								websiteLink={project.websiteLink}
 								key={project.id}
 							/>
 					  ))
 					: projects.map((project) => (
-							<ProjectSingle class = " flex-1 inline-block"
+							<ProjectSingle
 								title={project.title}
 								category={project.category}
 								image={project.img}
 								description={project.description}
 								link={project.link}
+								websiteLink={project.websiteLink}
 								key={project.id}
 							/>
 					  ))}

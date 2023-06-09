@@ -1,5 +1,5 @@
-import TripeaseImage from '../images/TripeaseImage.png';
-import MentesSanas from '../images/MentesSanas.png';
+import TripeaseImage from '../images/tripease.png';
+import MentesSanas from '../images/mentes.png';
 import TinyHomes from '../images/homes.png';
 
 
@@ -16,12 +16,12 @@ export const singleProjectData = {
 		},
 		{
 			id: 2,
-			title: 'Kabul Project Management UI',
+			title: '',
 			img: MentesSanas,
 		},
 		{
 			id: 3,
-			title: 'Kabul Project Management UI',
+			title: '',
 			img: TinyHomes,
 		},
 	],
