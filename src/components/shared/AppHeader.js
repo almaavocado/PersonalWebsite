@@ -113,7 +113,7 @@ const AppHeader = () => {
 
 					<Link
 						to="/activities"
-						className=" flex-1 flex justify-center mr-aut text-primary-dark dark:text-ternary-light hover:text-green-800 dark:hover:text-green-800  sm:mx-4 mb-2 sm:py-2"
+						className=" flex-1 flex justify-center mr-auto text-primary-dark dark:text-ternary-light hover:text-green-800 dark:hover:text-green-800  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Activities"
 					>
 						Activities

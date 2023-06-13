@@ -3,6 +3,7 @@ import React from 'react';
 const selectOptions = [
 	'Full Stack Web Application',
 	'Web Application',
+	'Backend Application',
 	'Database',
 	'Virtual Reality',
 ];

@@ -2,26 +2,13 @@ import TripeaseImage from '../images/tripease.png';
 import MentesSanas from '../images/mentes.png';
 import TinyHomes from '../images/homes.png';
 import Targets from '../images/vr.png';
+import Voltus from '../images/voltus-img.png';
+import Climate from '../images/climate.png';
 
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Tripease',
-		category: 'Full Stack Web Application',
-		img: TripeaseImage,
-		description: 'Tripease is an travel itinerary website that uses the Google API to query for destinations, lodgings, rentals, and more for you to create your dream vacation with ease.',
-		link: 'http://github.com/almaavocado/TripeaseDescription',
-		websiteLink: 'https://tripease.netlify.app/',
-
-		ProjectHeader: {
-			title: 'Tripease',
-			tags: 'Full Stack Web Application',
-		},
-		
-	},
-	{
-		id: 2,
 		title: 'Mentes Sanas',
 		category: 'Web Application',
 		img: MentesSanas,
@@ -35,7 +22,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 3,
+		id: 2,
 		title: 'Tiny Homes',
 		category: 'Database',
 		img: TinyHomes,
@@ -50,7 +37,7 @@ export const projectsData = [
 		
 	},
 	{
-		id: 4,
+		id: 3,
 		title: 'Targets VR Video Game',
 		category: 'Virtual Reality',
 		img: Targets,
@@ -65,5 +52,47 @@ export const projectsData = [
 		},
 		
 	},
-	
+	{
+		id: 4,
+		title: 'Energy Usage - Voltus API',
+		category: 'Backend Application',
+		img: Voltus,
+		description: ' I implemented a caching mechanism, error handling, configurable cache settings, filtering, and sorting options to optimize performance and enhance flexibility in retrieving and displaying site data.',
+		link: 'https://github.com/almaavocado/EnergyUsage',
+		websiteLink: 'https://energy-usage-voltusapi.netlify.app/',
+
+		
+		ProjectHeader: {
+			title: 'Energy Usage - Voltus API',
+			tags: 'Backend Application',
+		},
+	},
+	{
+		id: 5,
+		title: 'Climate Change Analysis',
+		category: 'Backend Application',
+		img: Climate,
+		description: 'I utilized Python and Pandas to analyze climate data from NOAA, visualizing temperature trends over time, and further explored the application of machine learning algorithms such as Random Forest Regression to predict future climate patterns.',
+		link: 'https://github.com/almaavocado/AnalyzingClimateChange',
+
+		ProjectHeader: {
+			title: 'Climate Change Analysis',
+			tags: 'Backend Application',
+		},
+	},
+	{
+		id: 6,
+		title: 'Tripease',
+		category: 'Full Stack Web Application',
+		img: TripeaseImage,
+		description: 'Tripease is an travel itinerary website that uses the Google API to query for destinations, lodgings, rentals, and more for you to create your dream vacation with ease.',
+		link: 'http://github.com/almaavocado/TripeaseDescription',
+		websiteLink: 'https://tripease.netlify.app/',
+
+		ProjectHeader: {
+			title: 'Tripease',
+			tags: 'Full Stack Web Application',
+		},
+		
+	},
 ];
