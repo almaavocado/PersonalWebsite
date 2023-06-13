@@ -4,6 +4,7 @@ import TinyHomes from '../images/homes.png';
 import Targets from '../images/vr.png';
 import Voltus from '../images/voltus-img.png';
 import Climate from '../images/climate.png';
+import Teacher from '../images/teacher-img.png';
 
 
 export const projectsData = [
@@ -23,6 +24,21 @@ export const projectsData = [
 	},
 	{
 		id: 2,
+		title: 'Teacher Personal Portfolio',
+		category: 'Web Application',
+		img: Teacher,
+		description: 'An user-friendly website geared to help an educator stand out in the job search. Created with React, Javascript, and CSS.',
+		link: 'http://github.com/almaavocado/teacher-profile',
+		websiteLink: 'https://missmartinezteaches.com/',
+
+		ProjectHeader: {
+			title: 'Tripease',
+			tags: 'Full Stack Web Application',
+		},
+		
+	},
+	{
+		id: 3,
 		title: 'Tiny Homes',
 		category: 'Database',
 		img: TinyHomes,
@@ -37,7 +53,7 @@ export const projectsData = [
 		
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Targets VR Video Game',
 		category: 'Virtual Reality',
 		img: Targets,
@@ -53,7 +69,7 @@ export const projectsData = [
 		
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Energy Usage - Voltus API',
 		category: 'Backend Application',
 		img: Voltus,
@@ -68,7 +84,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Climate Change Analysis',
 		category: 'Backend Application',
 		img: Climate,
@@ -81,7 +97,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Tripease',
 		category: 'Full Stack Web Application',
 		img: TripeaseImage,

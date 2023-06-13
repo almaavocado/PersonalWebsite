@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.07b6408d.chunk.css",
-    "main.js": "/static/js/main.92852094.chunk.js",
-    "main.js.map": "/static/js/main.92852094.chunk.js.map",
+    "main.js": "/static/js/main.043b9aa9.chunk.js",
+    "main.js.map": "/static/js/main.043b9aa9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.73d6a361.js",
     "runtime-main.js.map": "/static/js/runtime-main.73d6a361.js.map",
     "static/js/2.7f6a78d8.chunk.js": "/static/js/2.7f6a78d8.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/mvfc.ef363956.png": "/static/media/mvfc.ef363956.png",
     "static/media/profile.f0153763.png": "/static/media/profile.f0153763.png",
     "static/media/spy.f0a3fccc.png": "/static/media/spy.f0a3fccc.png",
+    "static/media/teacher-img.b8fd083d.png": "/static/media/teacher-img.b8fd083d.png",
     "static/media/tripease.4743774a.png": "/static/media/tripease.4743774a.png",
     "static/media/voltus-img.7478fd5f.png": "/static/media/voltus-img.7478fd5f.png",
     "static/media/vr.632a7737.png": "/static/media/vr.632a7737.png",
@@ -34,6 +35,6 @@
     "static/js/runtime-main.73d6a361.js",
     "static/js/2.7f6a78d8.chunk.js",
     "static/css/main.07b6408d.chunk.css",
-    "static/js/main.92852094.chunk.js"
+    "static/js/main.043b9aa9.chunk.js"
   ]
 }
