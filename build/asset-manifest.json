@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.07b6408d.chunk.css",
-    "main.js": "/static/js/main.9bee1d3e.chunk.js",
-    "main.js.map": "/static/js/main.9bee1d3e.chunk.js.map",
+    "main.js": "/static/js/main.92852094.chunk.js",
+    "main.js.map": "/static/js/main.92852094.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.73d6a361.js",
     "runtime-main.js.map": "/static/js/runtime-main.73d6a361.js.map",
     "static/js/2.7f6a78d8.chunk.js": "/static/js/2.7f6a78d8.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Alvarado__Alma_SoftwareEngineerResume.446b5b89.pdf": "/static/media/Alvarado__Alma_SoftwareEngineerResume.446b5b89.pdf",
     "static/media/App.css": "/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
     "static/media/banner.27399aa7.png": "/static/media/banner.27399aa7.png",
+    "static/media/climate.c74d502c.png": "/static/media/climate.c74d502c.png",
     "static/media/googlelogo.b62a9adf.png": "/static/media/googlelogo.b62a9adf.png",
     "static/media/grace.736aed85.png": "/static/media/grace.736aed85.png",
     "static/media/homes.3eb6eb89.png": "/static/media/homes.3eb6eb89.png",
@@ -25,6 +26,7 @@
     "static/media/profile.f0153763.png": "/static/media/profile.f0153763.png",
     "static/media/spy.f0a3fccc.png": "/static/media/spy.f0a3fccc.png",
     "static/media/tripease.4743774a.png": "/static/media/tripease.4743774a.png",
+    "static/media/voltus-img.7478fd5f.png": "/static/media/voltus-img.7478fd5f.png",
     "static/media/vr.632a7737.png": "/static/media/vr.632a7737.png",
     "static/media/wic.a21d7902.png": "/static/media/wic.a21d7902.png"
   },
@@ -32,6 +34,6 @@
     "static/js/runtime-main.73d6a361.js",
     "static/js/2.7f6a78d8.chunk.js",
     "static/css/main.07b6408d.chunk.css",
-    "static/js/main.9bee1d3e.chunk.js"
+    "static/js/main.92852094.chunk.js"
   ]
 }
