@@ -5,16 +5,16 @@ import Targets from '../images/vr.png';
 import Voltus from '../images/voltus-img.png';
 import Climate from '../images/climate.png';
 import Teacher from '../images/teacher-img.png';
-
+import BioBoost from '../images/BioBoost.PNG'
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Mentes Sanas',
-		category: 'Web Application',
-		img: MentesSanas,
-		description: 'An accessible, user-friendly website geared to help end the stigma behind mental health illnesses. It also provides low cost mental health resources for low income, LGBTQ+, and BIPOC communities.',
-		link: 'https://github.com/almaavocado/MentesSanas',
+		title: 'BioBoost',
+		category: 'Full Stack Web Application',
+		img: BioBoost,
+		description: 'BioBoost analyzes resumes, crafts compelling LinkedIn headlines, and refines About Me sections to help you stand out in the competitive job market. Built using React, Django, Python, GPT 3.5.',
+		link: 'https://github.com/almaavocado/BioBoost',
 
 
 		ProjectHeader: {
@@ -109,6 +109,20 @@ export const projectsData = [
 			title: 'Tripease',
 			tags: 'Full Stack Web Application',
 		},
-		
 	},
+	{
+		id: 8,
+		title: 'Mentes Sanas',
+		category: 'Web Application',
+		img: MentesSanas,
+		description: 'An accessible, user-friendly website geared to help end the stigma behind mental health illnesses. It also provides low cost mental health resources for low income, LGBTQ+, and BIPOC communities.',
+		link: 'https://github.com/almaavocado/MentesSanas',
+
+
+		ProjectHeader: {
+			title: 'Mentes Sanas',
+			tags: 'Web Application',
+		},
+	},
+	
 ];

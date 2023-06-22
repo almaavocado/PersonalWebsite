@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.07b6408d.chunk.css",
-    "main.js": "/static/js/main.043b9aa9.chunk.js",
-    "main.js.map": "/static/js/main.043b9aa9.chunk.js.map",
+    "main.js": "/static/js/main.c1e8ae17.chunk.js",
+    "main.js.map": "/static/js/main.c1e8ae17.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.73d6a361.js",
     "runtime-main.js.map": "/static/js/runtime-main.73d6a361.js.map",
     "static/js/2.7f6a78d8.chunk.js": "/static/js/2.7f6a78d8.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.07b6408d.chunk.css.map": "/static/css/main.07b6408d.chunk.css.map",
     "static/js/2.7f6a78d8.chunk.js.LICENSE.txt": "/static/js/2.7f6a78d8.chunk.js.LICENSE.txt",
     "static/media/Alvarado__Alma_SoftwareEngineerResume.446b5b89.pdf": "/static/media/Alvarado__Alma_SoftwareEngineerResume.446b5b89.pdf",
+    "static/media/BioBoost.a5400683.PNG": "/static/media/BioBoost.a5400683.PNG",
     "static/media/App.css": "/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
     "static/media/banner.27399aa7.png": "/static/media/banner.27399aa7.png",
     "static/media/climate.c74d502c.png": "/static/media/climate.c74d502c.png",
@@ -35,6 +36,6 @@
     "static/js/runtime-main.73d6a361.js",
     "static/js/2.7f6a78d8.chunk.js",
     "static/css/main.07b6408d.chunk.css",
-    "static/js/main.043b9aa9.chunk.js"
+    "static/js/main.c1e8ae17.chunk.js"
   ]
 }
