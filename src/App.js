@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 import ProjectSingle from './pages/ProjectSingle';
 import Skills from './pages/Skills';
 import Activity from './pages/Activity';
+import Clients from './pages/Clients';
 import { AnimatePresence } from 'framer-motion';
 import UseScrollToTop from './hooks/useScrollToTop';
 
@@ -24,6 +25,7 @@ function App() {
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="about" element={<About />} />
+						<Route path="clients" element={<Clients />} />
 						<Route path="projects" element={<Projects />} />
 						<Route
 							path="projects/single-project"

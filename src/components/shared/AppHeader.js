@@ -94,6 +94,15 @@ const AppHeader = () => {
 					>
 						About Me
 					</Link>
+
+					<Link
+						to="/clients"
+						className=" flex-1 flex justify-center mr-auto text-primary-dark dark:text-ternary-light hover:text-green-800  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						aria-label="Clients"
+					>
+						Clients
+					</Link>
+					
 					
 					<Link
 						to="/projects"
@@ -131,6 +140,15 @@ const AppHeader = () => {
 					>
 						About Me
 					</Link>
+
+					<Link
+						to="/clients"
+						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-green-800 dark:hover:text-green-800   sm:mx-4 mb-2 sm:py-2"
+						aria-label="Clients"
+					>
+						Clients
+					</Link>
+					
 					
 					<Link
 						to="/projects"

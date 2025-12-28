@@ -15,7 +15,6 @@ export const projectsData = [
 		img: BioBoost,
 		description: 'BioBoost analyzes resumes, crafts compelling LinkedIn headlines, and refines About Me sections to help you stand out in the competitive job market. Built using React, Django, Python, GPT 3.5.',
 		link: 'https://github.com/almaavocado/BioBoost',
-		websiteLink: 'https://bioboost.netlify.app/',
 
 
 		ProjectHeader: {
@@ -30,7 +29,6 @@ export const projectsData = [
 		img: Teacher,
 		description: 'An user-friendly website geared to help an educator stand out in the job search. Created with React, Javascript, and CSS.',
 		link: 'http://github.com/almaavocado/teacher-profile',
-		websiteLink: 'https://missmartinezteaches.com/',
 
 		ProjectHeader: {
 			title: 'Tripease',
@@ -60,7 +58,6 @@ export const projectsData = [
 		img: Targets,
 		description: 'A VR target shooting simulator with 3 levels.',
 		link: 'https://github.com/almaavocado/TargetsVR',
-		websiteLink: 'https://targets-vr.netlify.app/',
 
 		
 		ProjectHeader: {
@@ -76,7 +73,6 @@ export const projectsData = [
 		img: Voltus,
 		description: ' I implemented a caching mechanism, error handling, configurable cache settings, filtering, and sorting options to optimize performance and enhance flexibility in retrieving and displaying site data.',
 		link: 'https://github.com/almaavocado/EnergyUsage',
-		websiteLink: 'https://energy-usage-voltusapi.netlify.app/',
 
 		
 		ProjectHeader: {
