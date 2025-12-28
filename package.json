@@ -3,7 +3,9 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@craco/craco": "^6.4.1",
+		"@craco/craco": "^7.1.0",
+		"react-scripts": "^5.0.1",
+
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
@@ -16,17 +18,16 @@
 		"react-github-calendar": "^3.3.1",
 		"react-icons": "^4.3.1",
 		"react-router-dom": "^6.0.2",
-		"react-scripts": "4.0.3",
 		"react-scroll": "^1.8.4",
 		"styled-components": "^5.3.3",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "NODE_OPTIONS=--openssl-legacy-provider craco start",
-		"build": "NODE_OPTIONS=--openssl-legacy-provider craco build",
-		"test": "NODE_OPTIONS=--openssl-legacy-provider craco test",
+		"start": "craco start",
+		"build": "craco build",
+		"test": "craco test",
 		"eject": "react-scripts eject"
-	},
+		},
 	"eslintConfig": {
 		"extends": [
 			"react-app",
