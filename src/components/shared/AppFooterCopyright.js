@@ -3,12 +3,13 @@ import React from 'react';
 function AppFooterCopyright() {
 	return (
 		<div className="font-general-regular flex justify-center items-center text-center">
-			<div className="text-lg text-ternary-dark dark:text-ternary-light">
-				&copy; {new Date().getFullYear()}
+			<div className="text-sm sm:text-base text-ternary-dark dark:text-ternary-light flex items-center gap-1">
+				<span>&copy; {new Date().getFullYear()}</span>
 				<a
 					href="https://github.com/almaavocado"
 					target="__blank"
-					className="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-green-800 ml-1 duration-500"
+					rel="noreferrer"
+					className="text-cyan-700 dark:text-cyan-300 font-semibold hover:underline hover:text-cyan-900 dark:hover:text-cyan-100 transition"
 				>
 					Alma Alvarado
 				</a>

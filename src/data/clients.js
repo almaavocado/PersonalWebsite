@@ -51,7 +51,7 @@ export const clientsData = [
     category: 'Client Website • Branding • Social Media',
     img: Loyola,
     description:
-      'Led web design, branding, and digital presence for Loyola Water Polo Club. Managed social media strategy, designed apparel (hoodies, t-shirts), and developed visual assets to strengthen brand identity and community engagement.',
+      'Led web design, branding, and digital presence for Loyola Water Polo Club. Manage social media strategy, designed apparel + brand identity, and developed visual assets to strengthen brand identity and community engagement.',
     websiteLink: 'https://loyolawpclub.com/', 
     tech: 'Web Design • Branding • Apparel Design • Social Media',
   },

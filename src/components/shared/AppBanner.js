@@ -1,7 +1,6 @@
 import React from 'react';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developer from '../../images/banner.png';
-import Resume from '../../files/Alvarado__Alma_SoftwareEngineerResume.pdf';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
@@ -10,67 +9,77 @@ const AppBanner = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-			className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-2"
+			className="bg-gradient-to-r from-cyan-50 via-white to-cyan-50 dark:from-gray-900 dark:via-ternary-dark dark:to-gray-900"
 		>
-			<div className="w-full md:w-1/3 text-left">
-				<motion.h1
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{
-						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.1,
-					}}
-					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
-				>
-					Alma Alvarado
-				</motion.h1>
-				<motion.p
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{
-						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.2,
-					}}
-					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
-				>
-					Full Stack Software Engineer & Mentor
-				</motion.p>
-				<motion.div
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{
-						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.3,
-					}}
-					className="flex justify-center sm:block"
-				>
-					<a
-						download="AlmaAlvarado_SWEResume.pdf"
-						href={Resume}
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-green-600 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-emerald-800 focus:ring-1 focus:ring-green-900 hover:bg-green-900 text-gray-500 hover:text-white duration-500"
-						aria-label="Download Resume"
-					>
-						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
-						<span className="text-sm sm:text-lg font-general-medium duration-100">
-							Download CV
+			<div className="max-w-6xl mx-auto px-6">
+				<div className="group flex flex-col sm:flex-row items-center sm:items-stretch gap-10 sm:gap-12 px-5 sm:px-10 py-12 sm:py-16">
+					<div className="w-full sm:w-1/2 lg:w-2/5 text-left flex flex-col justify-center gap-4">
+						<span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-800 dark:text-cyan-200">
+							Full-stack engineer • Mentor
 						</span>
-					</a>
+					<motion.h1
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{
+							ease: 'easeInOut',
+							duration: 0.9,
+							delay: 0.1,
+						}}
+						className="font-general-semibold text-3xl lg:text-4xl xl:text-5xl text-left text-ternary-dark dark:text-primary-light tracking-tight"
+					>
+						Alma Alvarado
+					</motion.h1>
+					<motion.p
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{
+							ease: 'easeInOut',
+							duration: 0.9,
+							delay: 0.2,
+						}}
+						className="text-base md:text-xl text-left leading-tight text-gray-700 dark:text-gray-200"
+					>
+					  A Full-Stack Developer & Design Enthusiast
+					</motion.p>
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{
+							ease: 'easeInOut',
+							duration: 0.9,
+							delay: 0.3,
+						}}
+						className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-2"
+					>
+						<a
+							download="AlmaAlvarado_SWEResume.pdf"
+							href='https://almaalvarado.s3.us-west-1.amazonaws.com/AlmaAlvarado-SoftwareEngineerResume+.pdf'
+							className="flex justify-center items-center px-5 sm:px-6 py-3 sm:py-3.5 mt-2 text-sm sm:text-base font-semibold rounded-xl bg-cyan-700 text-white shadow-md shadow-cyan-900/20 hover:bg-cyan-800 transition duration-300"
+							aria-label="Download Resume"
+						>
+							<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+							<span className="text-sm sm:text-lg duration-100">
+								Download CV
+							</span>
+						</a>
+						
+					
 				</motion.div>
+					</div>
+					<motion.div
+						initial={{ opacity: 0, y: -180 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
+						className="w-full sm:w-1/2 lg:w-3/5 text-right mt-6 sm:mt-0"
+					>
+						<img
+							src={developer}
+							alt="Developer"
+							className="w-full shadow-cyan-900/10 transform transition duration-300 group-hover:-translate-y-1"
+						/>
+					</motion.div>
+				</div>
 			</div>
-			<motion.div
-				initial={{ opacity: 0, y: -180 }}
-				animate={{ opacity: 1, y: 0 }}
-				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
-			>
-				<img
-					src={developer}
-					alt="Developer"
-				/>
-			</motion.div>
 		</motion.section>
 	);
 };

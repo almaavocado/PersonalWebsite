@@ -5,46 +5,46 @@ const ClientsSingle = ({ title, category, image, description, link, websiteLink 
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, delay: 1 }}
+      animate={{ opacity: 1 }}
       transition={{
         ease: 'easeInOut',
         duration: 0.7,
         delay: 0.15,
       }}
-      className="mb-8 sm:mb-0"
+      className="mb-6 sm:mb-0"
     >
-      <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer h-full bg-secondary-light dark:bg-ternary-dark flex flex-col">
+      <div className="rounded-2xl shadow-lg shadow-cyan-900/5 cursor-pointer h-full bg-white dark:bg-ternary-dark flex flex-col border border-gray-100 dark:border-gray-800 overflow-hidden transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
         <div>
           <img
             src={image}
-            className="w-full h-56 sm:h-64 rounded-t-xl border-none object-cover"
+            className="w-full h-48 sm:h-56 object-cover"
             alt="Single Project"
           />
         </div>
-        <div className="flex flex-col justify-between px-4 py-6 flex-grow">
-          <div className="text-center mb-4">
-            <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+        <div className="flex flex-col justify-between p-4 sm:p-5 flex-grow space-y-3">
+          <div className="text-left space-y-2">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-cyan-900 dark:bg-gray-900/80 dark:text-cyan-100">
+              {category}
+            </span>
+            <p className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white leading-tight">
               {title}
             </p>
-            <p className="text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
-              {category}
-            </p>
           </div>
-          <div className="flex-grow mb-8">
-            <span className="text-lg text-ternary-dark dark:text-ternary-light">
+          <div className="flex-grow">
+            <span className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
               {description}
             </span>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-start">
             {websiteLink && (
               <a
                 href={websiteLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-general-medium flex items-center text-md border border-green-600 py-2.5 sm:py-3 shadow-lg rounded-lg bg-white-800 hover:bg-green-900 text-gray-800 py-2 px-4 inline-flex items-center focus:ring-1 focus:ring-green-900 hover:text-white duration-500 ml-4"
+                className="inline-flex items-center gap-2 px-4 py-2 border border-cyan-600 text-cyan-800 dark:text-cyan-200 rounded-full hover:bg-cyan-600 hover:text-white transition"
               >
-                <FiLink className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 duration-100" />
-                <span className="whitespace-nowrap">Website</span>
+                <FiLink className="h-5 w-5" />
+                <span className="whitespace-nowrap font-semibold text-sm">Website</span>
               </a>
             )}
           </div>
