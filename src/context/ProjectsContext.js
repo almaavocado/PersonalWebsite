@@ -24,9 +24,8 @@ export const ProjectsProvider = (props) => {
 
 	// Select projects by project category
 	const selectProjectsByCategory = projects.filter((item) => {
-		let category =
-			item.category.charAt(0).toUpperCase() + item.category.slice(1);
-		return category.includes(selectProject);
+		if (selectProject === '') return item;
+		return item.category.toLowerCase().includes(selectProject.toLowerCase());
 	});
 
 	return (

@@ -5,7 +5,7 @@ import Targets from '../images/vr.png';
 import Voltus from '../images/voltus-img.png';
 import Climate from '../images/climate.png';
 import Teacher from '../images/teacher-img.png';
-import BioBoost from '../images/BioBoost.PNG'
+import BioBoost from '../images/bio.png'
 
 export const projectsData = [
 	{

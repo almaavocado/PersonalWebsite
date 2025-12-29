@@ -17,8 +17,8 @@ export const ClientsProvider = (props) => {
   });
 
   const selectClientsByCategory = clients.filter((item) => {
-    const category = item.category.charAt(0).toUpperCase() + item.category.slice(1);
-    return selectClient === '' ? item : category.includes(selectClient);
+    if (selectClient === '') return item;
+    return item.category.toLowerCase().includes(selectClient.toLowerCase());
   });
 
   return (
